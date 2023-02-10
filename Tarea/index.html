@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Rellena tu cv</h1>
+    <form>
+    <br>
+      <label>Nombre</label>
+        <input type="text" placeholder="Nombre" maxlength="30">
+      <label>Apellidos</label>
+        <input type="text" placeholder="Apellido" maxlength="80">
+    </br>
+    <br>
+    <label>Contraseña</label>
+      <input type="text" placeholder="Contraseña" maxlength="10">
+    </br> 
+    <br>
+      <label>DNI</label>
+      <input type="text" placeholder="DNI" pattern="[0-10]"  minlength="7" maxlength="10" />
+    </br> 
+    <br>
+      <label>Sexo</label>
+    </br>
+    <input type="radio" name="pregunta">Hombre
+    </br>
+    <input type="radio" name="pregunta">Mujer
+    <br>
+        <label>Incluir mi foto</label>
+        <input type="file">
+    </br>
+    <br>
+    <input type="checkbox"checked />Suscribirme al boletin de novedades 
+    </br>
+    <br>
+       <button type="button">Guardar cambios</button>
+    </br>
+</form>
+
+
+
+
+</body>
+</html>
