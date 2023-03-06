@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(241, 200, 253);
+}
+.titulo {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+.logo {
+    float: right;
+    border: 1px solid #3521e6;
+    border-radius: 3px;
+}
+.educ {
+    margin: 70px;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 226, 233);
+}
+.ref {
+    margin: 70px;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 226, 233);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./Imagenes/image9.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 6px solid rgb(235, 186, 186);
+    box-shadow: 0px 35px 44px -22px black;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.foo {
+    font-size: 1.2rem;
+}
+.mail{
+    right: 10rem;
+    color:rgb(18, 19, 20)
+}
+.contacto {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(14, 7, 7);
+}
+.mailto {
+    color: #11130a;
+}
+.phone{
+    right: 10rem;
+    color:rgb(10, 31, 31)
+}
+.phone1{
+    right: 3rem;
+    color: #15180b;
+}
+.nag a {
+    display: flex; 
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid rgb(247, 166, 157);
+    border-radius: 20px;
+    padding: 0.6rem;
+    gap: 1rem;
+    padding-left: 1rem;
+    background: #e5acf5;
+    box-shadow:  20px 20px 33px #f86ad9,
+             -20px -20px 33px #f378a1;
+}
+.nag a {
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}

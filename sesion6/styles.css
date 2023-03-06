@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex;
+    border: 2px solid black;
+}
+.item {
+    width: 100%;
+    color: aquamarine;
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+}
+#boton {
+    width: 20px;
+}
