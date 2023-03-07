@@ -6,7 +6,7 @@ el programa muestre en una alert la temperatura en grados Fahrenheit.
 var centigrados, fahrenheit;
 centigrados = parseInt(prompt("Ingrese la temperatura en grados centigrados"));
 fahrenheit = (9 / 5 * centigrados) + 32;
-alert("centigrados" + " " + "los centigrados convertidos a fahrenheit son" + " " + "fahrenheit");
+alert("Los centigrados convertidos a fahrenheit son" + " " + "fahrenheit");
 
 /*
 2) El usuario ingresa un número, se pide crear la siguiente pirámide (console.log) hasta dicho número ingresado
@@ -36,7 +36,7 @@ var resultado = num;
 for (var i = 1; i < num; i++) {
     resultado = resultado * i;
 }
-alert("Resultado");
+alert("El resultado es");
 
 /*
 4) ATM (cajero automático)
